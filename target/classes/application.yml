@@ -1,0 +1,10 @@
+project:
+  mq:
+    queue: DEV.QUEUE.1
+    host: localhost
+    port: 1414
+    queue-manager: QM1
+    channel: DEV.APP.SVRCONN   # SVRCONN
+    username: mqm
+    password: 666
+    receive-timeout: 2000
